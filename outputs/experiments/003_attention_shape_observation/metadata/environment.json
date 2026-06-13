@@ -1,0 +1,10 @@
+{
+  "python": "3.11.14",
+  "torch": "2.4.1+cu121",
+  "torch_cuda": "12.1",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 2070 SUPER",
+  "diffusers": "0.30.3",
+  "transformers": "4.36.2",
+  "numpy": "1.26.4"
+}

@@ -1,0 +1,9 @@
+experiment: 002_cross_attention_mechanism
+device: cuda
+loading pipeline
+generating baseline: A painting of a squirrel eating a burger
+generating subject_cat: A painting of a cat eating a burger
+generating object_pizza: A painting of a squirrel eating pizza
+generating style_photo: A photo of a squirrel eating a burger
+saved comparison grid: outputs/experiments/002_cross_attention_mechanism/images/comparison_grid.png
+elapsed_seconds: 36.09

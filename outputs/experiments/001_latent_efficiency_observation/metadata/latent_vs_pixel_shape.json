@@ -1,0 +1,19 @@
+{
+  "experiment": "001_latent_efficiency_observation",
+  "image_shape": [
+    1,
+    3,
+    256,
+    256
+  ],
+  "latent_shape": [
+    1,
+    4,
+    32,
+    32
+  ],
+  "pixel_values": 196608,
+  "latent_values": 4096,
+  "compression_ratio_pixel_over_latent": 48.0,
+  "interpretation": "For 256x256 RGB images, the LDM denoising process operates on a latent tensor with 48x fewer scalar values than the pixel-space image tensor."
+}

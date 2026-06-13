@@ -10,9 +10,6 @@ __pycache__/
 models/huggingface/
 models/ldm/text2img-large/
 
-# Experiment outputs generated locally
-outputs/
-
 # Local external dependency checkouts
 src/
 

@@ -1,0 +1,6 @@
+experiment: 003_attention_shape_observation
+device: cuda
+loading pipeline
+running 1-step generation for hooks
+recorded modules: 3
+elapsed_seconds: 18.00

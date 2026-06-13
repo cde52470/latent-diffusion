@@ -1,0 +1,6 @@
+prompt: A painting of a squirrel eating a burger
+device: cuda
+loading pipeline
+running generation
+saved image: outputs/experiments/001_diffusers_text2img_baseline/images/baseline.png
+elapsed_seconds: 109.83

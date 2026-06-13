@@ -1,0 +1,30 @@
+{
+  "experiment": "002_cross_attention_mechanism",
+  "model": "CompVis/ldm-text2im-large-256",
+  "seed": 23,
+  "num_inference_steps": 50,
+  "eta": 0.3,
+  "guidance_scale": 6.0,
+  "dtype": "float16",
+  "device": "cuda",
+  "prompts": {
+    "baseline": {
+      "prompt": "A painting of a squirrel eating a burger",
+      "output_image": "outputs/experiments/002_cross_attention_mechanism/images/baseline.png"
+    },
+    "subject_cat": {
+      "prompt": "A painting of a cat eating a burger",
+      "output_image": "outputs/experiments/002_cross_attention_mechanism/images/subject_cat.png"
+    },
+    "object_pizza": {
+      "prompt": "A painting of a squirrel eating pizza",
+      "output_image": "outputs/experiments/002_cross_attention_mechanism/images/object_pizza.png"
+    },
+    "style_photo": {
+      "prompt": "A photo of a squirrel eating a burger",
+      "output_image": "outputs/experiments/002_cross_attention_mechanism/images/style_photo.png"
+    }
+  },
+  "comparison_grid": "outputs/experiments/002_cross_attention_mechanism/images/comparison_grid.png",
+  "elapsed_seconds": 36.085002183914185
+}

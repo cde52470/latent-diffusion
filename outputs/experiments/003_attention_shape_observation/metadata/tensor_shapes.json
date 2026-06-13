@@ -1,0 +1,228 @@
+{
+  "experiment": "003_attention_shape_observation",
+  "model": "CompVis/ldm-text2im-large-256",
+  "prompt": "A painting of a squirrel eating a burger",
+  "seed": 23,
+  "num_inference_steps": 1,
+  "eta": 0.3,
+  "guidance_scale": 6.0,
+  "device": "cuda",
+  "tokenizer_max_length_used": 77,
+  "latent_shape": [
+    1,
+    4,
+    32,
+    32
+  ],
+  "token_ids_shape": [
+    1,
+    77
+  ],
+  "tokens_first_20": [
+    "[CLS]",
+    "a",
+    "painting",
+    "of",
+    "a",
+    "squirrel",
+    "eating",
+    "a",
+    "burger",
+    "[SEP]",
+    "[PAD]",
+    "[PAD]",
+    "[PAD]",
+    "[PAD]",
+    "[PAD]",
+    "[PAD]",
+    "[PAD]",
+    "[PAD]",
+    "[PAD]",
+    "[PAD]"
+  ],
+  "text_embedding_shape": [
+    1,
+    77,
+    1280
+  ],
+  "selected_cross_attention_modules": {
+    "down_blocks.0.attentions.0.transformer_blocks.0.attn2": {
+      "module_name": "down_blocks.0.attentions.0.transformer_blocks.0.attn2",
+      "module_class": "Attention",
+      "heads": 8,
+      "input_hidden_states_shape": [
+        2,
+        1024,
+        320
+      ],
+      "encoder_hidden_states_shape": [
+        2,
+        77,
+        1280
+      ],
+      "output_shape": [
+        2,
+        1024,
+        320
+      ],
+      "q_linear_shape": [
+        2,
+        1024,
+        320
+      ],
+      "k_linear_shape": [
+        2,
+        77,
+        320
+      ],
+      "v_linear_shape": [
+        2,
+        77,
+        320
+      ],
+      "q_heads_shape": [
+        2,
+        8,
+        1024,
+        40
+      ],
+      "k_heads_shape": [
+        2,
+        8,
+        77,
+        40
+      ],
+      "v_heads_shape": [
+        2,
+        8,
+        77,
+        40
+      ],
+      "attention_probability_shape": [
+        2,
+        8,
+        1024,
+        77
+      ]
+    },
+    "mid_block.attentions.0.transformer_blocks.0.attn2": {
+      "module_name": "mid_block.attentions.0.transformer_blocks.0.attn2",
+      "module_class": "Attention",
+      "heads": 8,
+      "input_hidden_states_shape": [
+        2,
+        16,
+        1280
+      ],
+      "encoder_hidden_states_shape": [
+        2,
+        77,
+        1280
+      ],
+      "output_shape": [
+        2,
+        16,
+        1280
+      ],
+      "q_linear_shape": [
+        2,
+        16,
+        1280
+      ],
+      "k_linear_shape": [
+        2,
+        77,
+        1280
+      ],
+      "v_linear_shape": [
+        2,
+        77,
+        1280
+      ],
+      "q_heads_shape": [
+        2,
+        8,
+        16,
+        160
+      ],
+      "k_heads_shape": [
+        2,
+        8,
+        77,
+        160
+      ],
+      "v_heads_shape": [
+        2,
+        8,
+        77,
+        160
+      ],
+      "attention_probability_shape": [
+        2,
+        8,
+        16,
+        77
+      ]
+    },
+    "up_blocks.3.attentions.2.transformer_blocks.0.attn2": {
+      "module_name": "up_blocks.3.attentions.2.transformer_blocks.0.attn2",
+      "module_class": "Attention",
+      "heads": 8,
+      "input_hidden_states_shape": [
+        2,
+        1024,
+        320
+      ],
+      "encoder_hidden_states_shape": [
+        2,
+        77,
+        1280
+      ],
+      "output_shape": [
+        2,
+        1024,
+        320
+      ],
+      "q_linear_shape": [
+        2,
+        1024,
+        320
+      ],
+      "k_linear_shape": [
+        2,
+        77,
+        320
+      ],
+      "v_linear_shape": [
+        2,
+        77,
+        320
+      ],
+      "q_heads_shape": [
+        2,
+        8,
+        1024,
+        40
+      ],
+      "k_heads_shape": [
+        2,
+        8,
+        77,
+        40
+      ],
+      "v_heads_shape": [
+        2,
+        8,
+        77,
+        40
+      ],
+      "attention_probability_shape": [
+        2,
+        8,
+        1024,
+        77
+      ]
+    }
+  },
+  "elapsed_seconds": 18.002219200134277
+}
