@@ -1,0 +1,24 @@
+# Python runtime/build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Model checkpoints and local model/cache downloads
+*.ckpt
+*.safetensors
+models/huggingface/
+models/ldm/text2img-large/
+
+# Experiment outputs generated locally
+outputs/
+
+# Local external dependency checkouts
+src/
+
+# Empty command/output artifacts generated during local experiments
+VQ-VAE
+generated
+latent
+text
+tokenizer
