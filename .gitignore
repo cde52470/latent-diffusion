@@ -19,3 +19,9 @@ generated
 latent
 text
 tokenizer
+
+# Experiment outputs generated locally.
+# Keep curated experiment artifacts in Git so the report can be inspected.
+outputs/*
+!outputs/experiments/
+!outputs/experiments/**
